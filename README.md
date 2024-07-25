@@ -1,11 +1,15 @@
 MAKE SURE TO HAVE YOUR FILE STURCTURE LIKE THIS:-
 
-/your-project-directory
-|-- /public
-|   |-- (your static files, e.g., CSS, JavaScript, images)
-|
-|-- /views
-|   |-- index.ejs
-|
-|-- app.js
-|-- package.json
+project-root/
+│
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│
+├── views/
+│   └── index.ejs
+│
+├── app.js (or server.js)
+
